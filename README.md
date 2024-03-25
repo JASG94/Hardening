@@ -32,13 +32,15 @@ ALLOWED_SSH_CLIENTALIVE="1"
 ALLOWED_SSH_USER=$(logname)
 ```
 
+**Disable root login to all devices**
 
+Use the script 02_disable_root_login.sh 
 
 
 ## Roadmap
 
 - [x] SSH Hardening
-- [ ] Disable root login to all devices
+- [x] Disable root login to all devices
 - [ ] Remove root password
 - [ ] Remove ctrl+alt+del
 - [ ] Disable root login to all devices
