@@ -13,4 +13,7 @@ sudo ./03_remove_root_pass.sh
 echo "[TASK 4: Disable ctrl+alt+del]"
 sudo ./04_disable_ctrl_alt_del.sh
 
+echo "[TASK 5: System packages upgrade and clean]"
+sudo ./05_system_upgrade.sh
+
 echo "[ DONE ]"

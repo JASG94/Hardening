@@ -56,8 +56,24 @@ Use the script 04_disable_ctrl_alt_del.sh
 sudo ./04_disable_ctrl_alt_del.sh
 ```
 
+**Perform a package upgrade on server**
+
+Use the script 05_system_upgrade.sh, but before set the variable CRON_UPDATE to true or false:
+* True: It will create a cron task to daily upgrade packages on server.
+* False: It will only run once.
+```bash
+# Run just once
+CRON_UPDATE=false
+```
+If have CRON_UPDATE on true we shoul use the mark-hold option for the packages that we dont want to be upgraded.
+
+```bash
+sudo ./04_disable_ctrl_alt_del.sh
+```
+
 **FULL HARDENING**
-To perform a full hardening just run the full_hardening.sh script
+
+To perform a full hardening just run the full_hardening.sh script.
 ```bash
 ./full_hardening.sh
 ```
@@ -68,6 +84,7 @@ To perform a full hardening just run the full_hardening.sh script
 - [x] Disable root login to all devices
 - [x] Remove root password
 - [x] Remove ctrl+alt+del
+- [x] Performe recurrent (or not) packages upgrade
 - [ ] Future security improvements
 
 ## Contact
