@@ -31,19 +31,36 @@ ALLOWED_SSH_MAXTRIES="2"
 ALLOWED_SSH_CLIENTALIVE="1"
 ALLOWED_SSH_USER=$(logname)
 ```
+```bash
+sudo ./01_ssh_hardening.sh
+```
 
 **Disable root login to all devices**
 
 Use the script 02_disable_root_login.sh 
+```bash
+sudo ./02_disable_root_login.sh
+```
 
 **Remove root password**
 
 Use the script 03_remove_root_pass.sh
+```bash
+sudo ./03_remove_root_pass.sh
+```
 
 **Disable ctrl+alt+del on server**
 
 Use the script 04_disable_ctrl_alt_del.sh
+```bash
+sudo ./04_disable_ctrl_alt_del.sh
+```
 
+**FULL HARDENING**
+To perform a full hardening just run the full_hardening.sh script
+```bash
+./full_hardening.sh
+```
 
 ## Roadmap
 
@@ -51,10 +68,7 @@ Use the script 04_disable_ctrl_alt_del.sh
 - [x] Disable root login to all devices
 - [x] Remove root password
 - [x] Remove ctrl+alt+del
-- [ ] Disable root login to all devices
-- [ ] Remove insecure packages
-- [ ] Install packages for security
-
+- [ ] Future security improvements
 
 ## Contact
 
