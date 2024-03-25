@@ -40,13 +40,17 @@ Use the script 02_disable_root_login.sh
 
 Use the script 03_remove_root_pass.sh
 
+**Disable ctrl+alt+del on server**
+
+Use the script 04_disable_ctrl_alt_del.sh
+
 
 ## Roadmap
 
 - [x] SSH Hardening
 - [x] Disable root login to all devices
-- [ ] Remove root password
-- [ ] Remove ctrl+alt+del
+- [x] Remove root password
+- [x] Remove ctrl+alt+del
 - [ ] Disable root login to all devices
 - [ ] Remove insecure packages
 - [ ] Install packages for security
