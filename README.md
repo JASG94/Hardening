@@ -72,6 +72,7 @@ sudo ./05_system_upgrade.sh
 ```
 
 **Force strong passwords**
+
 Use the script 06_force_strong_passwords.sh, but first, set the variables to meet your needs:
 ```bash
 # Variables definition
