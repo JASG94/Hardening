@@ -36,6 +36,10 @@ ALLOWED_SSH_USER=$(logname)
 
 Use the script 02_disable_root_login.sh 
 
+**Remove root password**
+
+Use the script 03_remove_root_pass.sh
+
 
 ## Roadmap
 
