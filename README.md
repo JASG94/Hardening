@@ -68,7 +68,19 @@ CRON_UPDATE=false
 If have CRON_UPDATE on true we shoul use the mark-hold option for the packages that we dont want to be upgraded.
 
 ```bash
-sudo ./04_disable_ctrl_alt_del.sh
+sudo ./05_system_upgrade.sh
+```
+
+**Force strong passwords**
+Use the script 06_force_strong_passwords.sh, but first, set the variables to meet your needs:
+```bash
+# Variables definition
+MIN_PASS_LEN="14"
+MIN_PASS_CLASS="4"
+```
+
+```bash
+sudo ./06_force_strong_passwords.sh
 ```
 
 **FULL HARDENING**
@@ -85,6 +97,7 @@ To perform a full hardening just run the full_hardening.sh script.
 - [x] Remove root password
 - [x] Remove ctrl+alt+del
 - [x] Performe recurrent (or not) packages upgrade
+- [x] Force strong passwords
 - [ ] Future security improvements
 
 ## Contact
