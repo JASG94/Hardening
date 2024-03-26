@@ -74,6 +74,7 @@ sudo ./05_system_upgrade.sh
 **Force strong passwords**
 
 Use the script 06_force_strong_passwords.sh, but first, set the variables to meet your needs:
+
 ```bash
 # Variables definition
 MIN_PASS_LEN="14"
@@ -82,6 +83,14 @@ MIN_PASS_CLASS="4"
 
 ```bash
 sudo ./06_force_strong_passwords.sh
+```
+
+**Set correct file permission**
+
+Use the script 07_set_file_permissions.sh to doesn't allow read permissions for everyone:
+
+```bash
+sudo ./07_set_file_permissions.sh
 ```
 
 **FULL HARDENING**
@@ -99,6 +108,7 @@ To perform a full hardening just run the full_hardening.sh script.
 - [x] Remove ctrl+alt+del
 - [x] Performe recurrent (or not) packages upgrade
 - [x] Force strong passwords
+- [x] Set correct file permissions
 - [ ] Future security improvements
 
 ## Contact

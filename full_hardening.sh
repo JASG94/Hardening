@@ -16,7 +16,10 @@ sudo ./04_disable_ctrl_alt_del.sh
 echo "[TASK 5: System packages upgrade and clean]"
 sudo ./05_system_upgrade.sh
 
-echo "[TASK 5: System packages upgrade and clean]"
+echo "[TASK 6: System packages upgrade and clean]"
 sudo ./06_force_strong_passwords.sh
+
+echo "[TASK 7: System packages upgrade and clean]"
+sudo ./07_set_file_permissions.sh
 
 echo "[ DONE ]"
