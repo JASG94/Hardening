@@ -93,6 +93,14 @@ Use the script 07_set_file_permissions.sh to doesn't allow read permissions for 
 sudo ./07_set_file_permissions.sh
 ```
 
+**Tunning sudoers file**
+
+Use the script 08_config_sudoers.sh:
+
+```bash
+sudo ./08_config_sudoers.sh
+```
+
 **FULL HARDENING**
 
 To perform a full hardening just run the full_hardening.sh script.
